@@ -19,7 +19,7 @@ public class Server {
                 String message = reader.readLine();
                 System.out.println("Received message from client: " + message);
 
-                writer.println("Server received the message: " + message);
+                writer.println("Server received the message; " + message);
                 
                 socket.close();
             }
